@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Netfix</title>
+    <link rel="stylesheet" href="action.css">
+</head>
+<body>
+
+
+<div class="row">
+    <h2>Action movies</h2>
+    <div class="row__posters">
+        <img src="king.jpg" alt="" class="row__poster">
+        <img src="king1.jpg" alt="" class="row__poster">
+        <img src="king2.jpg" alt="" class="row__poster">
+        <img src="king3.jpg" alt="" class="row__poster">
+        <img src="king4.jpg" alt="" class="row__poster">
+        <img src="king5.jpg" alt="" class="row__poster">
+        <img src="king6.jpg" alt="" class="row__poster">
+        <img src="king7.jpg" alt="" class="row__poster">
+        
+       
+    </div>
+</div>
+
+<div class="row">
+    <h2>Comedy movies</h2>
+    <div class="row__posters">
+        <img src="c.jpg" alt="" class="row__poster">
+        <img src="c1.jpg" alt="" class="row__poster">
+        <img src="c2.jpg" alt="" class="row__poster">
+        <img src="c3.jpg" alt="" class="row__poster">
+        <img src="c4.jpg" alt="" class="row__poster">
+        <img src="c5.jpg" alt="" class="row__poster">
+        <img src="c6.jpg" alt="" class="row__poster">
+        <img src="c7.jpg" alt="" class="row__poster">
+        <img src="c8.jpg" alt="" class="row__poster">
+        <img src="c.jpg" alt="" class="row__poster">
+       
+    </div>
+</div>
+
+
+
+<div class="row">
+    <h2>Horror movies</h2>
+    <div class="row__posters">
+        <img src="h.jpg" alt="" class="row__poster">
+        <img src="h1.jpg" alt="" class="row__poster">
+        <img src="h2.jpg" alt="" class="row__poster">
+        <img src="h3.jpg" alt="" class="row__poster">
+        <img src="h4.jpg" alt="" class="row__poster">
+        <img src="h5.jpg" alt="" class="row__poster">
+        <img src="h6.jpg" alt="" class="row__poster">
+        <img src="h7.jpg" alt="" class="row__poster">
+        <img src="h4.jpg" alt="" class="row__poster">
+       
+        
+    </div>
+</div>
+<div class="row">
+    <h2>Romance movies</h2>
+    <div class="row__posters">
+        <img src="r.jpg" alt="" class="row__poster">
+        <img src="r1.jpg" alt="" class="row__poster">
+        <img src="r2.jpg" alt="" class="row__poster">
+        <img src="r3.jpg" alt="" class="row__poster">
+        <img src="r4.jpg" alt="" class="row__poster">
+        <img src="r5.jpg" alt="" class="row__poster">
+        <img src="r6.jpg" alt="" class="row__poster">
+        <img src="r7.jpg" alt="" class="row__poster">
+        <img src="r4.jpg" alt="" class="row__poster">
+      
+    </div>
+</div>
+
+
+
+<div class="row">
+    <h2>Documentaries movies</h2>
+    <div class="row__posters">
+        <img src="d.jpg" alt="" class="row__poster">
+        <img src="d1.jpg" alt="" class="row__poster">
+        <img src="d2.jpg" alt="" class="row__poster">
+        <img src="d3.jpg" alt="" class="row__poster">
+        <img src="d4.jpg" alt="" class="row__poster">
+        <img src="d5.jpg" alt="" class="row__poster">
+        <img src="d6.jpg" alt="" class="row__poster">
+        <img src="d7.jpg" alt="" class="row__poster">
+        
+        
+    </div>
+</div>
+
+<script>
+    const nav = document.getElementById('nav');
+
+    window.addEventListerner('scroll', () => {
+        if(window.screenY >=100) {
+            nav.classList.add('nav__black')
+        } else{
+            nav.classList.remove('nav')
+        }
+    })
+</script>
+</body>
+</html>
